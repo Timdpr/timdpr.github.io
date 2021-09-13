@@ -11,6 +11,7 @@ theme = "anatole"
   displayMode = "dark"
   images = ["images/site-feature-image.png"]
   favicon = "favicons/"
+  doNotLoadAnimations = true
 
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
