@@ -1,0 +1,52 @@
+baseURL = 'http://timdpr.com/'
+languageCode = 'en-gb'
+title = 'Personal Site'
+theme = "anatole"
+
+[params]
+  title = "I'm Tim Russell"
+  author = "Tim Russell"
+  description = "This is a description"
+  profilePicture = "images/profile.jpg"
+  displayMode = "dark"
+  images = ["images/site-feature-image.png"]
+  favicon = "favicons/"
+
+[[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://linkedin.com/in/timothy-parker-russell"
+
+[[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/Timdpr"
+
+[[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:qotimsa@live.co.uk"
+
+[params.math]
+  # add 'math: true' to start of post to enable
+  enable = false
+  use = "katex"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About / CV"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://timdpr.com/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/post/test/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/post/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/tags/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/tags/test/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/about/</loc>
+    <lastmod>2012-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://timdpr.com/categories/</loc>
+  </url><url>
+    <loc>http://timdpr.com/tags/index/</loc>
+  </url>
+</urlset>

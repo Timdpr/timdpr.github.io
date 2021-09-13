@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Site</title>
+    <link>http://timdpr.com/</link>
+    <description>Recent content on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://timdpr.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Test Post</title>
+      <link>http://timdpr.com/post/test/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://timdpr.com/post/test/</guid>
+      
+        <description>An image: Alfie should follow&amp;hellip; </description>
+      
+    </item>
+    
+    <item>
+      <title>About / CV</title>
+      <link>http://timdpr.com/about/</link>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://timdpr.com/about/</guid>
+      
+        <description>TODO</description>
+      
+    </item>
+    
+  </channel>
+</rss>
