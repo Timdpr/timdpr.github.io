@@ -4,9 +4,9 @@ title = 'Personal Site'
 theme = "anatole"
 
 [params]
-  title = "I'm Tim Russell"
+  title = "Tim Russell"
   author = "Tim Russell"
-  description = "This is a description"
+  description = "AI Developer @ Amplify"
   profilePicture = "images/profile.jpg"
   contentratio = 0.7
   displayMode = "dark"
