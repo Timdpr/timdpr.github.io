@@ -6,15 +6,26 @@
     <description>Recent content on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://timdpr.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://timdpr.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Test Post</title>
-      <link>http://timdpr.com/post/test/</link>
-      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Can knowledge of conscious level be applied to to conscious content?</title>
+      <link>http://timdpr.com/post/conscious_level_content/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://timdpr.com/post/test/</guid>
+      <guid>http://timdpr.com/post/conscious_level_content/</guid>
       
-        <description>An image: Alfie should follow&amp;hellip; </description>
+        <description>There is a tendency in ‘consciousness science’, as well as in science more broadly, to approach content of consciousness and level of consciousness very separately. Bayne et al. (2016), while being critical of the definition of levels, note a relative lack of research into ‘global’ states of consciousness as opposed to local, phenomenological states. Empirical research into the latter tends to focus on neural correlates of consciousness (NCCs), the neuronal mechanisms necessary for a specific conscious percept (Overgaard and Overgaard, 2010).</description>
+      
+    </item>
+    
+    <item>
+      <title>Is image familiarity encoded as neural synchrony in an ant&#39;s brain?</title>
+      <link>http://timdpr.com/post/ant_image_familiarity/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://timdpr.com/post/ant_image_familiarity/</guid>
+      
+        <description>Ants use visual information to quickly and accurately learn routes through their environment, despite a small brain and a low-resolution visual system. This navigation may be driven by a search for familiarity between a current view and the views previously experienced along the target route. There is little consensus on how this familiarity measure is implemented, but a recently proposed general familiarity measure, whereby an input history is encoded in a spiking neural network and the synchrony of spike timing is measured for a new input, seems promising.</description>
       
     </item>
     
@@ -25,7 +36,7 @@
       
       <guid>http://timdpr.com/about/</guid>
       
-        <description>TODO</description>
+        <description>alt : cv.pdf  </description>
       
     </item>
     

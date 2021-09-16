@@ -8,11 +8,11 @@ theme = "anatole"
   author = "Tim Russell"
   description = "This is a description"
   profilePicture = "images/profile.jpg"
+  contentratio = 0.7
   displayMode = "dark"
   images = ["images/site-feature-image.png"]
   favicon = "favicons/"
   doNotLoadAnimations = true
-
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
   title = "Linkedin"
@@ -51,3 +51,6 @@ theme = "anatole"
   weight = 300
   identifier = "about"
   url = "/about/"
+
+[markup.goldmark.renderer]
+    unsafe = true
