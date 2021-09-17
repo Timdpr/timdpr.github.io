@@ -1,7 +1,7 @@
 +++
 author = "Tim Russell"
 title = "Can our knowledge of conscious level be applied to to conscious content?"
-date = "2021-09-16"
+date = "2021-09-17"
 description = "Neuroscience of Consciousness"
 tags = [
     "consciousness", "neuroscience", "conscious level", "conscious content"

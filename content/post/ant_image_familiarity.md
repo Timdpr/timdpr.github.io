@@ -1,7 +1,7 @@
 +++
 author = "Tim Russell"
 title = "Does neural synchrony imply image familiarity in an ant's brain?"
-date = "2021-09-16"
+date = "2021-09-15"
 description = "Neural synchrony as image familiarity in ant route navigation"
 tags = [
     "neural networks", "ant navigation", "neural synchrony", "image familiarity"

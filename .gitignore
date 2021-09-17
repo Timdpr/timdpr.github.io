@@ -1,2 +1,4 @@
 themes
 resources
+.idea
+*.iml
