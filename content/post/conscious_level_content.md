@@ -6,7 +6,7 @@ description = "Neuroscience of Consciousness"
 tags = [
     "consciousness", "neuroscience", "conscious level", "conscious content"
 ]
-thumbnail= "images/consc.png"
+thumbnail= "images/consc.webp"
 +++
 There is a tendency in ‘consciousness science’, as well as in science more broadly, to approach _content_ of consciousness and _level_ of consciousness very separately. Bayne et al. (2016), while being critical of the definition of levels, note a relative lack of research into ‘global’ states of consciousness as opposed to local, phenomenological states. Empirical research into the latter tends to focus on neural correlates of consciousness (NCCs), the neuronal mechanisms necessary for a specific conscious percept (Overgaard and Overgaard, 2010). Clinically, conscious states such as a coma or a ‘vegetative state’ are broadly defined and largely diagnosed via physical responses or behaviours—only recently has the more precisely defined and measured theory of conscious level emerged (Seth et al., 2006) to give a ‘richer continuum’ between the extremes of consciousness (Bachmann, 2012). Measures used here, such as the Perturbation Complexity Index (Casali et al., 2013) and Integrated Information (Φ) (Tononi, 2004), tend to be underpinned by the ‘Integrated Information Theory’ (IIT) of consciousness.
 

@@ -6,7 +6,7 @@ description = "'Dark World' - A book of ghost stories edited by Tim Russell"
 tags = [
     "writing", "ghost stories", "book", "amala"
 ]
-thumbnail= "images/dw.jpg"
+thumbnail= "images/dw.webp"
 +++
 
 edited by Tim Parker Russell:

@@ -7,10 +7,10 @@ theme = "anatole"
   title = "Tim Russell"
   author = "Tim Russell"
   description = "AI Developer @ Amplify"
-  profilePicture = "images/profile.jpg"
+  profilePicture = "images/profile.webp"
   contentratio = 0.7
   displayMode = "dark"
-  images = ["images/site-feature-image.png"]
+  images = ["images/site-feature-image.webp"]
   favicon = "favicons/"
   doNotLoadAnimations = true
 [[params.socialIcons]]
