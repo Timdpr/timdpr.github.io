@@ -6,13 +6,14 @@ theme = "anatole"
 [params]
   title = "Tim Russell"
   author = "Tim Russell"
-  description = "AI Developer @ Amplify"
+  description = "Lead AI Developer @ PersuasionXP"
   profilePicture = "images/profile.webp"
-  contentratio = 0.7
+  contentratio = 0.75
   displayMode = "dark"
   images = ["images/site-feature-image.webp"]
   favicon = "favicons/"
   doNotLoadAnimations = true
+  
 [[params.socialIcons]]
   icon = "fab fa-linkedin"
   title = "Linkedin"
@@ -32,6 +33,16 @@ theme = "anatole"
   # add 'math: true' to start of post to enable
   enable = false
   use = "katex"
+  
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 [menu]
   [[menu.main]]
@@ -51,6 +62,3 @@ theme = "anatole"
   weight = 300
   identifier = "about"
   url = "/about/"
-
-[markup.goldmark.renderer]
-    unsafe = true

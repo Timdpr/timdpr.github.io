@@ -2,3 +2,4 @@ themes
 resources
 .idea
 *.iml
+*.DS_Store

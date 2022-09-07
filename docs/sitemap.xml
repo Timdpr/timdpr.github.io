@@ -62,5 +62,7 @@
     <loc>http://timdpr.com/categories/</loc>
   </url><url>
     <loc>http://timdpr.com/tags/index/</loc>
+  </url><url>
+    <loc>http://timdpr.com/series/</loc>
   </url>
 </urlset>
