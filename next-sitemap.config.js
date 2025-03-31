@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://timdpr.github.io',
+  siteUrl: 'https://timdpr.com',
   generateRobotsTxt: true,
   outDir: 'docs',
 }; 

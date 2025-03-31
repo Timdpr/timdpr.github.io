@@ -1,5 +1,6 @@
 import { getSortedPostsData } from '@/lib/markdown';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const allPostsData = getSortedPostsData();
@@ -43,7 +44,7 @@ export default function TagPage({ params }: TagPageProps) {
       {filteredPosts.length > 0 ? (
         <div>
           {filteredPosts.map(post => (
-            <a 
+            <Link 
               key={post.id}
               href={`/things/${post.id}`}
               style={{
@@ -80,14 +81,14 @@ export default function TagPage({ params }: TagPageProps) {
                   })}</span>
                   <div style={{ display: 'flex', gap: '0.25rem', alignItems: 'center' }}>
                     {post.tags && post.tags.length > 0 && post.tags.map(t => (
-                      <a 
+                      <Link 
                         key={t} 
                         href={`/things/tag/${t}`}
                         className={`tag tag-${t.toLowerCase().replace(/\s+/g, '-')}`}
                         style={{ position: 'relative', zIndex: 2 }}
                       >
                         {t}
-                      </a>
+                      </Link>
                     ))}
                     {post.featured && <span className="tag" style={{ 
                       background: 'var(--accent)'
@@ -105,7 +106,7 @@ export default function TagPage({ params }: TagPageProps) {
                   color: 'var(--text-muted)'
                 }}>{post.excerpt}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       ) : (
@@ -113,7 +114,7 @@ export default function TagPage({ params }: TagPageProps) {
       )}
       
       <div style={{ marginTop: '2rem' }}>
-        <a href="/things" style={{ 
+        <Link href="/things" style={{ 
           display: 'inline-flex', 
           alignItems: 'center', 
           gap: '0.5rem',
@@ -124,7 +125,7 @@ export default function TagPage({ params }: TagPageProps) {
           transition: 'border-color 0.2s'
         }}>
           &larr; Back to all things
-        </a>
+        </Link>
       </div>
     </div>
   );

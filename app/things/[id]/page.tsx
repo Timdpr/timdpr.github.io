@@ -1,5 +1,6 @@
 import { getAllPostIds, getPostData } from '@/lib/markdown';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const posts = getAllPostIds();
@@ -46,13 +47,13 @@ export default async function ThingPost({ params }: ThingPostProps) {
             {post.tags && post.tags.length > 0 && (
               <div style={{ display: 'flex', gap: '0.25rem', alignItems: 'center' }}>
                 {post.tags.map(tag => (
-                  <a 
+                  <Link 
                     key={tag} 
                     href={`/things/tag/${tag}`}
                     className={`tag tag-${tag.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {tag}
-                  </a>
+                  </Link>
                 ))}
               </div>
             )}
@@ -70,7 +71,7 @@ export default async function ThingPost({ params }: ThingPostProps) {
         />
         
         <div style={{ marginTop: '2rem' }}>
-          <a href="/things" style={{ 
+          <Link href="/things" style={{ 
             display: 'inline-flex', 
             alignItems: 'center', 
             gap: '0.5rem',
@@ -81,7 +82,7 @@ export default async function ThingPost({ params }: ThingPostProps) {
             transition: 'border-color 0.2s'
           }}>
             &larr; Back to all things
-          </a>
+          </Link>
         </div>
       </article>
     </div>

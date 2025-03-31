@@ -2,6 +2,7 @@ import { getSortedPostsData } from '@/lib/markdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export default async function Home() {
   const allPostsData = getSortedPostsData();
@@ -65,7 +66,7 @@ export default async function Home() {
             {displayPosts.length > 0 ? (
               <div>
                 {displayPosts.map(post => (
-                  <a 
+                  <Link 
                     key={post.id}
                     href={`/things/${post.id}`}
                     style={{
@@ -102,14 +103,14 @@ export default async function Home() {
                         })}</span>
                         <div style={{ display: 'flex', gap: '0.25rem', alignItems: 'center' }}>
                           {post.tags && post.tags.length > 0 && post.tags.map(tag => (
-                            <a 
+                            <Link 
                               key={tag} 
                               href={`/things/tag/${tag}`}
                               className={`tag tag-${tag.toLowerCase().replace(/\s+/g, '-')}`}
                               style={{ position: 'relative', zIndex: 2 }}
                             >
                               {tag}
-                            </a>
+                            </Link>
                           ))}
                           {post.featured && <span className="tag" style={{ 
                             background: 'var(--accent, #8b795e)'
@@ -127,7 +128,7 @@ export default async function Home() {
                         color: 'var(--text-muted, #555)'
                       }}>{post.excerpt}</p>
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             ) : (

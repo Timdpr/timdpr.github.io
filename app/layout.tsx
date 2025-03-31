@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Link from "next/link";
 import NeuralNetworkBackground from '@/components/NeuralNetworkBackground';
 
 // Define types for neural network animation
@@ -37,11 +38,11 @@ export default function RootLayout({
       <body>
         <header style={{ height: 'var(--header-height)' }}>
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
-            <a href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Tim Russell</a>
+            <Link href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Tim Russell</Link>
             <nav>
               <ul style={{ display: 'flex', gap: '1.5rem', listStyle: 'none' }}>
-                <li><a href="/">Home</a></li>
-                <li><a href="/things">Things</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/things">Things</Link></li>
               </ul>
             </nav>
           </div>
@@ -65,9 +66,9 @@ export default function RootLayout({
               <p style={{ margin: 0, fontSize: '0.8rem' }}>&copy; {new Date().getFullYear()} Tim Russell</p>
             </div>
             <div>
-              <a href="/rss.xml" style={{ color: 'var(--muted)' }}>
+              <Link href="/rss.xml" style={{ color: 'var(--muted)' }}>
                 RSS
-              </a>
+              </Link>
             </div>
           </div>
         </footer>

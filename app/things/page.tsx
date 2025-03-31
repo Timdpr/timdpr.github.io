@@ -1,5 +1,6 @@
 import { getSortedPostsData } from '@/lib/markdown';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Things',
@@ -18,7 +19,7 @@ export default function Things() {
       {allPostsData.length > 0 ? (
         <div>
           {allPostsData.map(post => (
-            <a 
+            <Link 
               key={post.id} 
               href={`/things/${post.id}`} 
               style={{
@@ -55,14 +56,14 @@ export default function Things() {
                   })}</span>
                   <div style={{ display: 'flex', gap: '0.25rem', alignItems: 'center' }}>
                     {post.tags && post.tags.length > 0 && post.tags.map(tag => (
-                      <a 
+                      <Link 
                         key={tag}
                         href={`/things/tag/${tag}`}
                         className={`tag tag-${tag.toLowerCase().replace(/\s+/g, '-')}`}
                         style={{ position: 'relative', zIndex: 2 }}
                       >
                         {tag}
-                      </a>
+                      </Link>
                     ))}
                     {post.featured && <span className="tag" style={{ 
                       background: 'var(--accent)'
@@ -80,7 +81,7 @@ export default function Things() {
                   color: 'var(--text-muted)'
                 }}>{post.excerpt}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       ) : (
