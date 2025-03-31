@@ -2,5 +2,5 @@
 module.exports = {
   siteUrl: 'https://timdpr.github.io',
   generateRobotsTxt: true,
-  outDir: 'out',
+  outDir: 'docs',
 }; 
