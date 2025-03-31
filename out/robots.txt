@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://timdpr.github.io
+
+# Sitemaps
+Sitemap: https://timdpr.github.io/sitemap.xml
