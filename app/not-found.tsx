@@ -1,0 +1,24 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '404 - Page Not Found',
+};
+
+export default function NotFound() {
+  return (
+    <div className="container" style={{ 
+      paddingTop: '4rem', 
+      paddingBottom: '4rem', 
+      textAlign: 'center',
+      maxWidth: '600px',
+      margin: '0 auto'
+    }}>
+      <h1 style={{ fontSize: '6rem', marginBottom: '1rem', color: 'var(--primary)' }}>404</h1>
+      <h2 style={{ marginBottom: '2rem' }}>Page Not Found</h2>
+      <p style={{ marginBottom: '2rem' }}>
+        The page you're looking for doesn't exist or has been moved.
+      </p>
+      <a href="/" className="btn">Return to Homepage</a>
+    </div>
+  );
+} 
