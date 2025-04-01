@@ -3,7 +3,6 @@ const nextConfig = {
   output: 'export',
   distDir: 'docs',
   basePath: '',
-  assetPrefix: './',
   images: {
     unoptimized: true,
   },
@@ -24,7 +23,7 @@ const nextConfig = {
   env: {
     siteTitle: 'Tim Russell',
     siteDescription: "Tim Russell's Personal Website",
-    siteUrl: 'https://timdpr.github.io',
+    siteUrl: 'https://timdpr.com',
   },
 };
 

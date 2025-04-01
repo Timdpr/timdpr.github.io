@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Tech Stack
+- Next.js
+- TypeScript
+- Markdown (processed with gray-matter, remark, and rehype)
+- Next-sitemap for sitemap generation
+
+## Build/deployment info
+- This project creates a static website. The site is exported to the `/docs` directory.
+- The site is deployed with GitHub Pages, to `timdpr.github.io`, but it uses CNAME to redirect to `timdpr.com`.
+
+## Runnning instructions
+- Use `pnpm` for commands
