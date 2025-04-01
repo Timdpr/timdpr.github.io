@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Tim Russell</title>
+  <link>https://timdpr.com</link>
+  <description>Tim Russell's Personal Website</description>
+  <language>en</language>
+  <lastBuildDate>Tue, 01 Apr 2025 12:06:26 GMT</lastBuildDate>
+  <atom:link href="https://timdpr.com/rss.xml" rel="self" type="application/rss+xml" />
+
+  <item>
+    <title><![CDATA['Level' of consciousness vs 'content' of conscousness]]></title>
+    <link>https://timdpr.com/things/conscious-level-content/</link>
+    <guid isPermaLink="true">https://timdpr.com/things/conscious-level-content/</guid>
+    <pubDate>Sat, 16 Dec 2023 00:00:00 GMT</pubDate>
+    <description><![CDATA[Can our knowledge of conscious level be applied to to conscious content?]]></description>
+    <category>neuroscience</category>
+    <category>consciousness</category>
+  </item>
+  <item>
+    <title><![CDATA[Does neural synchrony imply image familiarity in an ant's brain?]]></title>
+    <link>https://timdpr.com/things/ant-neural-synchrony/</link>
+    <guid isPermaLink="true">https://timdpr.com/things/ant-neural-synchrony/</guid>
+    <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+    <description><![CDATA[Can we use an ant-inspired spiking neural network as an image 'familiarity' measure - and what does it tell us about ant navigation?]]></description>
+    <category>AI</category>
+    <category>programming</category>
+    <category>project</category>
+  </item>
+  <item>
+    <title><![CDATA['Dark World' - A book of ghost stories]]></title>
+    <link>https://timdpr.com/things/dark-world/</link>
+    <guid isPermaLink="true">https://timdpr.com/things/dark-world/</guid>
+    <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+    <description><![CDATA[A charity ghost story collection edited by myself]]></description>
+    <category>books</category>
+    <category>project</category>
+  </item>
+</channel>
+</rss>

@@ -1,6 +1,6 @@
 ---
 title: "'Level' of consciousness vs 'content' of conscousness"
-date: '2023-12-15'
+date: '2023-12-16'
 excerpt: "Can our knowledge of conscious level be applied to to conscious content?"
 tags: ["neuroscience", "consciousness"]
 featured: false

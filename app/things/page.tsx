@@ -56,9 +56,6 @@ export default function Things() {
                       {tag}
                     </Link>
                   ))}
-                  {post.featured && <span className="tag" style={{ 
-                    background: 'var(--accent)'
-                  }}>Featured</span>}
                 </div>
               </div>
               <h3 style={{ 

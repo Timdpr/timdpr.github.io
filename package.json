@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-sitemap && cp CNAME docs/ && cp .nojekyll docs/",
+    "build": "tsx lib/build-rss.ts && next build && next-sitemap && cp CNAME docs/ && cp .nojekyll docs/ && cp public/rss.xml docs/",
     "start": "next start",
     "lint": "next lint"
   },
@@ -32,6 +32,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
     "serve": "^14.2.4",
+    "tsx": "^4.19.3",
     "typescript": "^5"
   }
 }

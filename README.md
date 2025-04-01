@@ -1,68 +1,37 @@
-# Tim Russell - Personal Blog & Portfolio
+# Tim Russell - Personal Site
 
-A modern, minimalist personal blog and portfolio site built with Next.js and optimized for static site generation.
+My personal site - built with Next.js, but entirely static.
 
-## Features
-
-- Static site generation for optimal performance
-- Markdown-based blog posts
-- Clean, modern design
-- Responsive layout
-- SEO optimized
-- Sitemap generation
-
-## Tech Stack
+### Tech Stack
 
 - Next.js
 - TypeScript
 - Markdown (processed with gray-matter, remark, and rehype)
 - Next-sitemap for sitemap generation
 
-## Getting Started
-
-### Prerequisites
+## Install & Run:
 
 - Node.js (>=18.0.0)
 - pnpm
+- Clone the repository and `pnpm install`
 
-### Installation
+#### Development
 
-Clone the repository and install dependencies:
+Run the development server with `pnpm dev`
 
-```bash
-git clone https://github.com/timdpr/timdpr.github.io.git
-cd timdpr.github.io
-pnpm install
-```
+#### Production
 
-### Development
-
-Run the development server:
-
-```bash
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the site.
-
-### Production Build
-
-Generate a static production build:
-
-```bash
-pnpm build
-```
-
-This will:
+Generate a static production build with `pnpm build`. This will:
 1. Build the Next.js app
-2. Export static files to the `/site` directory
+2. Export static files to the `/docs` directory
 3. Generate a sitemap
+4. Copy `CNAME` and `.nojekyll` to `/docs`
 
-### Adding Blog Posts
+## Adding Posts
 
 To add a new blog post, create a markdown file in the `content/things` directory with the following format:
 
-```markdown
+```
 ---
 title: 'Your Post Title'
 date: 'YYYY-MM-DD'
