@@ -130,6 +130,15 @@ p {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
 
+/* Card link overlay - replaces the nested <a> tags */
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
 /* Make cards fully clickable in a static site */
 a > .card::after {
   content: '';

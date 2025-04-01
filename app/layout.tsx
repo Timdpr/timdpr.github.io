@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from "next/link";
-import NeuralNetworkBackground from '@/components/NeuralNetworkBackground';
+import BackgroundWrapper from "@/components/BackgroundWrapper";
+import CopyrightYear from "@/components/CopyrightYear";
 
 export const metadata: Metadata = {
   title: {
@@ -29,11 +29,11 @@ export default function RootLayout({
       <body>
         <header style={{ height: 'var(--header-height)' }}>
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
-            <Link href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Tim Russell</Link>
+            <a href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Tim Russell</a>
             <nav>
               <ul style={{ display: 'flex', gap: '1.5rem', listStyle: 'none' }}>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/things">Things</Link></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/things">Things</a></li>
               </ul>
             </nav>
           </div>
@@ -54,17 +54,17 @@ export default function RootLayout({
             color: 'var(--muted)'
           }}>
             <div>
-              <p style={{ margin: 0, fontSize: '0.8rem' }}>&copy; {new Date().getFullYear()} Tim Russell</p>
+              <p style={{ margin: 0, fontSize: '0.8rem' }}>&copy; <CopyrightYear /> Tim Russell</p>
             </div>
             <div>
-              <Link href="/rss.xml" style={{ color: 'var(--muted)' }}>
+              <a href="/rss.xml" style={{ color: 'var(--muted)' }}>
                 RSS
-              </Link>
+              </a>
             </div>
           </div>
         </footer>
         {/* Neural Network Background */}
-        <NeuralNetworkBackground />
+        <BackgroundWrapper />
       </body>
     </html>
   );
