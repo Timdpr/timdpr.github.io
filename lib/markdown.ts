@@ -4,7 +4,6 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify'; 
-import remarkHtml from 'remark-html';
 import rehypeRaw from 'rehype-raw';
 
 const contentDirectory = path.join(process.cwd(), 'content');

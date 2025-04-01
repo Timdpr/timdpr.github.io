@@ -31,7 +31,7 @@ export default function RootLayout({
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <header style={{ height: 'var(--header-height)' }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
-              <Link href="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Tim Russell</Link>
+              <Link href="/" className="logo">TR</Link>
               <nav>
                 <ul style={{ display: 'flex', gap: '1.5rem', listStyle: 'none' }}>
                   <li><Link href="/">Home</Link></li>

@@ -198,6 +198,7 @@ a > .card::after {
   transition: transform 0.2s ease;
   position: relative;
   z-index: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Only apply hover animation to tags that are links */
@@ -245,6 +246,38 @@ span.tag:hover {
 /* Default for tags not explicitly styled - must come after .tag definition */
 .tag:not([class*="tag-"]), .tag-default {
   background-color: var(--tag-default);
+}
+
+/* Logo hover effect */
+.logo {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--secondary);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .home-layout {

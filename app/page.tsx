@@ -44,9 +44,9 @@ export default async function Home() {
                 margin: '0 auto 1rem'
               }} 
             />
-            <h1 style={{ textAlign: 'center' }}>Tim Russell</h1>
+            <h1 style={{ textAlign: 'center', fontWeight: 'bold' }}>Tim Russell</h1>
             <p style={{ textAlign: 'center', color: 'var(--muted)'}}>
-              Lead AI Engineer @ PersuasionXP
+              Lead AI Engineer @ Persuasion XP
             </p>
             <p style={{ textAlign: 'center', color: 'var(--muted)', marginBottom: '1.5rem' }}>
               <a href="https://linkedin.com/in/timothy-parker-russell" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: 'var(--muted)' }}>
