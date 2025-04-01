@@ -1,5 +1,4 @@
 import { getAllPostIds, getPostData } from '@/lib/markdown';
-import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export async function generateStaticParams() {

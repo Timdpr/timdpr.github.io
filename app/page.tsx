@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default async function Home() {
   const allPostsData = getSortedPostsData();
@@ -31,12 +32,12 @@ export default async function Home() {
       <div className="home-layout">
         <div>
           <div style={{ marginBottom: '2rem' }}>
-            <img 
+            <Image 
               src="/images/profile.webp" 
               alt="Tim Russell" 
+              width={200}
+              height={200}
               style={{ 
-                width: '200px', 
-                height: '200px', 
                 borderRadius: '50%', 
                 objectFit: 'cover',
                 display: 'block',

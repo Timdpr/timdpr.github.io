@@ -3,15 +3,6 @@ import "./globals.css";
 import Link from "next/link";
 import NeuralNetworkBackground from '@/components/NeuralNetworkBackground';
 
-// Define types for neural network animation
-interface Node {
-  x: number;
-  y: number;
-  vx: number;
-  vy: number;
-  radius: number;
-}
-
 export const metadata: Metadata = {
   title: {
     default: process.env.siteTitle || 'Tim Russell',

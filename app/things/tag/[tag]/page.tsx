@@ -39,7 +39,7 @@ export default function TagPage({ params }: TagPageProps) {
     <div className="container" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <h1 style={{ 
         marginBottom: '2rem',
-      }}>Posts tagged with "{tag}"</h1>
+      }}>Posts tagged with &quot;{tag}&quot;</h1>
       
       {filteredPosts.length > 0 ? (
         <div>
@@ -110,7 +110,7 @@ export default function TagPage({ params }: TagPageProps) {
           ))}
         </div>
       ) : (
-        <p>No posts found with tag "{tag}".</p>
+        <p>No posts found with tag &quot;{tag}&quot;.</p>
       )}
       
       <div style={{ marginTop: '2rem' }}>
